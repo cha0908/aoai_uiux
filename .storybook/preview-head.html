@@ -1,0 +1,128 @@
+<style>
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+  * {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    margin: 0px;
+    height: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  :root {
+    --background: rgba(255, 255, 254, 1);
+    --body-font-family: "NotoSans-Regular", Helvetica;
+    --body-font-size: 16px;
+    --body-font-style: normal;
+    --body-font-weight: 400;
+    --body-l-font-family: "Roboto-Regular", Helvetica;
+    --body-l-font-size: 18px;
+    --body-l-font-style: normal;
+    --body-l-font-weight: 400;
+    --body-l-letter-spacing: 0px;
+    --body-l-line-height: 139.9999976158142%;
+    --body-letter-spacing: 0px;
+    --body-line-height: normal;
+    --body-s-font-family: "Roboto-Regular", Helvetica;
+    --body-s-font-size: 14px;
+    --body-s-font-style: normal;
+    --body-s-font-weight: 400;
+    --body-s-letter-spacing: 0px;
+    --body-s-line-height: 139.9999976158142%;
+    --body-XS-font-family: "Roboto-Regular", Helvetica;
+    --body-XS-font-size: 12px;
+    --body-XS-font-style: normal;
+    --body-XS-font-weight: 400;
+    --body-XS-letter-spacing: 0px;
+    --body-XS-line-height: 139.9999976158142%;
+    --button-font-family: "NotoSans-Medium", Helvetica;
+    --button-font-size: 14px;
+    --button-font-style: normal;
+    --button-font-weight: 500;
+    --button-letter-spacing: 0px;
+    --button-line-height: normal;
+    --button-m-font-family: "Roboto-Medium", Helvetica;
+    --button-m-font-size: 16px;
+    --button-m-font-style: normal;
+    --button-m-font-weight: 500;
+    --button-m-letter-spacing: 0.5px;
+    --button-m-line-height: 100%;
+    --coolgray-10: rgba(242, 244, 248, 1);
+    --coolgray-20: rgba(221, 225, 230, 1);
+    --coolgray-30: rgba(193, 199, 205, 1);
+    --coolgray-60: rgba(105, 112, 119, 1);
+    --coolgray-90: rgba(33, 39, 42, 1);
+    --deep-violet: rgba(66, 60, 115, 1);
+    --defaultwhite: rgba(255, 255, 255, 1);
+    --grey: rgba(114, 114, 114, 1);
+    --grey-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.1);
+    --heading-4-font-family: "Roboto-Bold", Helvetica;
+    --heading-4-font-size: 24px;
+    --heading-4-font-style: normal;
+    --heading-4-font-weight: 700;
+    --heading-4-letter-spacing: 0px;
+    --heading-4-line-height: 110.00000238418579%;
+    --heading-6-font-family: "Roboto-Bold", Helvetica;
+    --heading-6-font-size: 18px;
+    --heading-6-font-style: normal;
+    --heading-6-font-weight: 700;
+    --heading-6-letter-spacing: 0px;
+    --heading-6-line-height: 110.00000238418579%;
+    --headline: rgba(9, 64, 103, 1);
+    --hover: rgba(122, 197, 255, 1);
+    --iconillustration: rgba(144, 180, 206, 1);
+    --label-font-family: "NotoSans-Regular", Helvetica;
+    --label-font-size: 12px;
+    --label-font-style: normal;
+    --label-font-weight: 400;
+    --label-letter-spacing: 0px;
+    --label-line-height: normal;
+    --light-blue: rgba(242, 244, 248, 1);
+    --light-grey: rgba(247, 248, 250, 1);
+    --logo-l-font-family: "NotoSans-Bold", Helvetica;
+    --logo-l-font-size: 24px;
+    --logo-l-font-style: normal;
+    --logo-l-font-weight: 700;
+    --logo-l-letter-spacing: 0px;
+    --logo-l-line-height: 110.00000238418579%;
+    --logo-s-font-family: "NotoSans-DisplayMedium", Helvetica;
+    --logo-s-font-size: 8px;
+    --logo-s-font-style: normal;
+    --logo-s-font-weight: 500;
+    --logo-s-letter-spacing: 0px;
+    --logo-s-line-height: 139.9999976158142%;
+    --other-menu-m-font-family: "Roboto-Medium", Helvetica;
+    --other-menu-m-font-size: 16px;
+    --other-menu-m-font-style: normal;
+    --other-menu-m-font-weight: 500;
+    --other-menu-m-letter-spacing: 0px;
+    --other-menu-m-line-height: 100%;
+    --pale: rgba(253, 253, 254, 1);
+    --paragraph: rgba(95, 108, 123, 1);
+    --primary-blue: rgba(61, 169, 252, 1);
+    --secondary-blue: rgba(216, 238, 254, 1);
+    --section-title-font-family: "NotoSans-Bold", Helvetica;
+    --section-title-font-size: 20px;
+    --section-title-font-style: normal;
+    --section-title-font-weight: 700;
+    --section-title-letter-spacing: 0px;
+    --section-title-line-height: normal;
+    --sub-headline: rgba(95, 108, 123, 1);
+    --text-font-family: "NotoSans-Medium", Helvetica;
+    --text-font-size: 16px;
+    --text-font-style: normal;
+    --text-font-weight: 500;
+    --text-letter-spacing: 0px;
+    --text-line-height: normal;
+    --title-font-family: "NotoSans-SemiBold", Helvetica;
+    --title-font-size: 40px;
+    --title-font-style: normal;
+    --title-font-weight: 600;
+    --title-letter-spacing: 0px;
+    --title-line-height: normal;
+  }
+</style>

@@ -1,0 +1,1 @@
+export { IconJamIconsWrapper } from "./IconJamIconsWrapper";

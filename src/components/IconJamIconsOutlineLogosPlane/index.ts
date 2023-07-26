@@ -1,0 +1,1 @@
+export { IconJamIconsOutlineLogosPlane } from "./IconJamIconsOutlineLogosPlane";

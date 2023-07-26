@@ -1,0 +1,1 @@
+export { IconIoniconsWrapper } from "./IconIoniconsWrapper";

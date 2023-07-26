@@ -1,0 +1,65 @@
+.desktop-vertical-not {
+  align-items: flex-start;
+  background-color: var(--defaultwhite);
+  border-color: var(--coolgray-20);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 1024px;
+  justify-content: center;
+  padding: 24px 16px;
+  position: relative;
+  width: 265px;
+}
+
+.desktop-vertical-not .logo-container {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop-vertical-not .logo-instance {
+  flex: 0 0 auto !important;
+}
+
+.desktop-vertical-not .menu {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+  width: 100%;
+}
+
+.desktop-vertical-not .menu-item-instance {
+  align-self: stretch !important;
+  background-color: var(--light-blue) !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.desktop-vertical-not .design-component-instance-node {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.desktop-vertical-not .menu-item-2 {
+  align-self: stretch !important;
+  border-bottom-style: solid !important;
+  border-bottom-width: 1px !important;
+  border-color: var(--coolgray-10) !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}

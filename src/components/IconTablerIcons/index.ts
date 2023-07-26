@@ -1,0 +1,1 @@
+export { IconTablerIcons } from "./IconTablerIcons";
